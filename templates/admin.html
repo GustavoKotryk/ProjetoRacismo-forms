@@ -11,11 +11,16 @@
             <h1>Painel Administrativo</h1>
             <div>
                 <a href="/" class="btn btn-secondary">Página Inicial</a>
-                <form action="/limpar_dados" method="POST" class="d-inline">
-                    <button type="submit" class="btn btn-danger" onclick="return confirm('Tem certeza que deseja limpar todos os dados?')">
-                        Limpar Todos os Dados
-                    </button>
-                </form>
+                <form action="/limpar_dados" method="POST">
+    <div class="mb-3">
+        <label for="senha" class="form-label">Senha para limpar dados:</label>
+        <input type="password" class="form-control" id="senha" name="senha" required>
+    </div>
+    <button type="submit" class="btn btn-danger"
+            onclick="return confirm('ISSO VAPAGAR TODOS OS DADOS! Tem certeza?')">
+        Limpar Todos os Dados
+    </button>
+</form>
             </div>
         </div>
 
