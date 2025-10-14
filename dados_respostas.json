@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2025-10-14T18:28:49.398421",
+    "pontuacao": 10,
+    "total_perguntas": 5,
+    "acertos": 1,
+    "percentual": 20.0,
+    "detalhes_respostas": [
+      {
+        "pergunta_id": 1,
+        "pergunta_texto": "O que é racismo estrutural?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 2,
+        "pergunta_texto": "O que caracteriza racismo institucional?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 3,
+        "pergunta_texto": "Qual é o conceito de colorismo?",
+        "resposta_usuario": 2,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 4,
+        "pergunta_texto": "O que significa interseccionalidade?",
+        "resposta_usuario": 0,
+        "resposta_correta": 2,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 5,
+        "pergunta_texto": "O que é lugar de fala?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "timestamp": "2025-10-14T18:31:06.585330",
+    "pontuacao": 10,
+    "total_perguntas": 5,
+    "acertos": 1,
+    "percentual": 20.0,
+    "detalhes_respostas": [
+      {
+        "pergunta_id": 1,
+        "pergunta_texto": "O que é racismo estrutural?",
+        "resposta_usuario": 2,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 2,
+        "pergunta_texto": "O que caracteriza racismo institucional?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 3,
+        "pergunta_texto": "Qual é o conceito de colorismo?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 4,
+        "pergunta_texto": "O que significa interseccionalidade?",
+        "resposta_usuario": 0,
+        "resposta_correta": 2,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 5,
+        "pergunta_texto": "O que é lugar de fala?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "timestamp": "2025-10-14T18:31:11.974723",
+    "pontuacao": 10,
+    "total_perguntas": 5,
+    "acertos": 1,
+    "percentual": 20.0,
+    "detalhes_respostas": [
+      {
+        "pergunta_id": 1,
+        "pergunta_texto": "O que é racismo estrutural?",
+        "resposta_usuario": 2,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 2,
+        "pergunta_texto": "O que caracteriza racismo institucional?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 3,
+        "pergunta_texto": "Qual é o conceito de colorismo?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 4,
+        "pergunta_texto": "O que significa interseccionalidade?",
+        "resposta_usuario": 0,
+        "resposta_correta": 2,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 5,
+        "pergunta_texto": "O que é lugar de fala?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "timestamp": "2025-10-14T18:31:26.678294",
+    "pontuacao": 0,
+    "total_perguntas": 5,
+    "acertos": 0,
+    "percentual": 0.0,
+    "detalhes_respostas": [
+      {
+        "pergunta_id": 1,
+        "pergunta_texto": "O que é racismo estrutural?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 2,
+        "pergunta_texto": "O que caracteriza racismo institucional?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 3,
+        "pergunta_texto": "Qual é o conceito de colorismo?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 4,
+        "pergunta_texto": "O que significa interseccionalidade?",
+        "resposta_usuario": 0,
+        "resposta_correta": 2,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 5,
+        "pergunta_texto": "O que é lugar de fala?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      }
+    ]
+  }
+]
