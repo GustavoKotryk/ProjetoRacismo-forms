@@ -7,7 +7,6 @@ fuso_brasil = timezone(timedelta(hours=-3))
 
 app = Flask(__name__)
 
-# Perguntas sobre racismo
 PERGUNTAS = [
     {
         'id': 1,
@@ -68,8 +67,69 @@ PERGUNTAS = [
         ],
         'resposta_correta': 1,
         'pontuacao': 10
+    },
+    {
+        'id': 6,
+        'pergunta': 'Qual é o papel da educação no combate ao racismo?',
+        'opcoes': [
+            'Reforçar estereótipos culturais',
+            'Ignorar temas raciais para evitar conflitos',
+            'Promover o respeito, a diversidade e a igualdade racial',
+            'Manter tradições sem questionamento'
+        ],
+        'resposta_correta': 2,
+        'pontuacao': 10
+    },
+    {
+        'id': 7,
+        'pergunta': 'O que foi o Movimento dos Direitos Civis nos Estados Unidos?',
+        'opcoes': [
+            'Um movimento musical',
+            'Uma luta por igualdade racial e fim da segregação',
+            'Uma campanha de marketing político',
+            'Uma guerra entre estados americanos'
+        ],
+        'resposta_correta': 1,
+        'pontuacao': 10
+    },
+    {
+        'id': 8,
+        'pergunta': 'Qual lei brasileira tornou o racismo crime inafiançável e imprescritível?',
+        'opcoes': [
+            'Lei Áurea',
+            'Lei Maria da Penha',
+            'Constituição de 1988',
+            'Lei nº 7.716/1989'
+        ],
+        'resposta_correta': 3,
+        'pontuacao': 10
+    },
+    {
+        'id': 9,
+        'pergunta': 'O que são ações afirmativas?',
+        'opcoes': [
+            'Políticas que buscam reparar desigualdades históricas',
+            'Privilégios concedidos sem justificativa',
+            'Ações de repressão a movimentos sociais',
+            'Medidas voltadas apenas para minorias políticas'
+        ],
+        'resposta_correta': 0,
+        'pontuacao': 10
+    },
+    {
+        'id': 10,
+        'pergunta': 'Por que é importante falar sobre racismo?',
+        'opcoes': [
+            'Para manter o debate apenas entre grupos afetados',
+            'Para entender, conscientizar e combater desigualdades',
+            'Para gerar polêmica nas redes sociais',
+            'Para dividir opiniões e fortalecer identidades'
+        ],
+        'resposta_correta': 1,
+        'pontuacao': 10
     }
 ]
+
 
 # Armazenamento em arquivo JSON (simula "nuvem")
 ARQUIVO_DADOS = 'dados_respostas.json'
