@@ -1,7 +1,9 @@
 from flask import Flask, render_template, request, jsonify, redirect, url_for
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+
+fuso_brasil = timezone(timedelta(hours=-3))
 
 app = Flask(__name__)
 
@@ -128,7 +130,7 @@ def submit_quiz():
 
     resultado = {
         'id': len(dados_existentes) + 1,
-        'timestamp': datetime.now().isoformat(),
+        'timestamp': datetime.now(fuso_brasil).strftime('%d/%m/%Y %H:%M:%S'),  # ← MODIFICADO
         'pontuacao': pontuacao_total,
         'total_perguntas': len(PERGUNTAS),
         'acertos': respostas_corretas,
