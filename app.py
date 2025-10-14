@@ -210,6 +210,11 @@ def admin():
 
 @app.route('/limpar_dados', methods=['POST'])
 def limpar_dados():
+    senha = request.form.get('senha')
+
+    if senha != "senhasuperboa":
+        return "Senha incorreta!", 403
+
     salvar_dados([])
     return redirect('/admin')
 
