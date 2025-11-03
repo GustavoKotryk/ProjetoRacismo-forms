@@ -5,7 +5,7 @@ from datetime import datetime, timezone, timedelta
 
 fuso_brasil = timezone(timedelta(hours=-3))
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 PERGUNTAS = [
     {
@@ -280,6 +280,28 @@ def limpar_dados():
 @app.route('/health')
 def health_check():
     return 'OK'
+
+@app.route('/debug_templates')
+def debug_templates():
+    """Rota para testar se os templates estão funcionando"""
+    try:
+        # Testar cada template
+        templates = ['index.html', 'quiz.html', 'resultado.html', 'admin.html']
+        resultados = []
+        
+        for template in templates:
+            try:
+                render_template(template, perguntas=PERGUNTAS[:1] if template == 'quiz.html' else None)
+                resultados.append(f"✅ {template} - OK")
+            except Exception as e:
+                resultados.append(f"❌ {template} - ERRO: {str(e)}")
+        
+        return "<br>".join(resultados)
+        
+    except Exception as e:
+        return f"Erro geral: {str(e)}"
+
+
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 10000))

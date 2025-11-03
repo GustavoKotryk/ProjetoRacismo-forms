@@ -178,5 +178,325 @@
         "acertou": false
       }
     ]
+  },
+  {
+    "id": 5,
+    "timestamp": "03/11/2025 15:35:02",
+    "pontuacao": 10,
+    "total_perguntas": 10,
+    "acertos": 1,
+    "percentual": 10.0,
+    "detalhes_respostas": [
+      {
+        "pergunta_id": 1,
+        "pergunta_texto": "O que é racismo estrutural?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 2,
+        "pergunta_texto": "O que caracteriza racismo institucional?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 3,
+        "pergunta_texto": "Qual é o conceito de colorismo?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 4,
+        "pergunta_texto": "O que significa interseccionalidade?",
+        "resposta_usuario": 0,
+        "resposta_correta": 2,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 5,
+        "pergunta_texto": "O que é lugar de fala?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 6,
+        "pergunta_texto": "Qual é o papel da educação no combate ao racismo?",
+        "resposta_usuario": 0,
+        "resposta_correta": 2,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 7,
+        "pergunta_texto": "O que foi o Movimento dos Direitos Civis nos Estados Unidos?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 8,
+        "pergunta_texto": "Qual lei brasileira tornou o racismo crime inafiançável e imprescritível?",
+        "resposta_usuario": 0,
+        "resposta_correta": 3,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 9,
+        "pergunta_texto": "O que são ações afirmativas?",
+        "resposta_usuario": 0,
+        "resposta_correta": 0,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 10,
+        "pergunta_texto": "Por que é importante falar sobre racismo?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "timestamp": "03/11/2025 15:38:35",
+    "pontuacao": 40,
+    "total_perguntas": 10,
+    "acertos": 4,
+    "percentual": 40.0,
+    "detalhes_respostas": [
+      {
+        "pergunta_id": 1,
+        "pergunta_texto": "O que é racismo estrutural?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 2,
+        "pergunta_texto": "O que caracteriza racismo institucional?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 3,
+        "pergunta_texto": "Qual é o conceito de colorismo?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 4,
+        "pergunta_texto": "O que significa interseccionalidade?",
+        "resposta_usuario": 3,
+        "resposta_correta": 2,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 5,
+        "pergunta_texto": "O que é lugar de fala?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 6,
+        "pergunta_texto": "Qual é o papel da educação no combate ao racismo?",
+        "resposta_usuario": 0,
+        "resposta_correta": 2,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 7,
+        "pergunta_texto": "O que foi o Movimento dos Direitos Civis nos Estados Unidos?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 8,
+        "pergunta_texto": "Qual lei brasileira tornou o racismo crime inafiançável e imprescritível?",
+        "resposta_usuario": 2,
+        "resposta_correta": 3,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 9,
+        "pergunta_texto": "O que são ações afirmativas?",
+        "resposta_usuario": 0,
+        "resposta_correta": 0,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 10,
+        "pergunta_texto": "Por que é importante falar sobre racismo?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "timestamp": "03/11/2025 15:41:21",
+    "pontuacao": 60,
+    "total_perguntas": 10,
+    "acertos": 6,
+    "percentual": 60.0,
+    "detalhes_respostas": [
+      {
+        "pergunta_id": 1,
+        "pergunta_texto": "O que é racismo estrutural?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 2,
+        "pergunta_texto": "O que caracteriza racismo institucional?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 3,
+        "pergunta_texto": "Qual é o conceito de colorismo?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 4,
+        "pergunta_texto": "O que significa interseccionalidade?",
+        "resposta_usuario": 1,
+        "resposta_correta": 2,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 5,
+        "pergunta_texto": "O que é lugar de fala?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 6,
+        "pergunta_texto": "Qual é o papel da educação no combate ao racismo?",
+        "resposta_usuario": 1,
+        "resposta_correta": 2,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 7,
+        "pergunta_texto": "O que foi o Movimento dos Direitos Civis nos Estados Unidos?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 8,
+        "pergunta_texto": "Qual lei brasileira tornou o racismo crime inafiançável e imprescritível?",
+        "resposta_usuario": 1,
+        "resposta_correta": 3,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 9,
+        "pergunta_texto": "O que são ações afirmativas?",
+        "resposta_usuario": 1,
+        "resposta_correta": 0,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 10,
+        "pergunta_texto": "Por que é importante falar sobre racismo?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "timestamp": "03/11/2025 15:42:13",
+    "pontuacao": 40,
+    "total_perguntas": 10,
+    "acertos": 4,
+    "percentual": 40.0,
+    "detalhes_respostas": [
+      {
+        "pergunta_id": 1,
+        "pergunta_texto": "O que é racismo estrutural?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 2,
+        "pergunta_texto": "O que caracteriza racismo institucional?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 3,
+        "pergunta_texto": "Qual é o conceito de colorismo?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 4,
+        "pergunta_texto": "O que significa interseccionalidade?",
+        "resposta_usuario": 3,
+        "resposta_correta": 2,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 5,
+        "pergunta_texto": "O que é lugar de fala?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 6,
+        "pergunta_texto": "Qual é o papel da educação no combate ao racismo?",
+        "resposta_usuario": 0,
+        "resposta_correta": 2,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 7,
+        "pergunta_texto": "O que foi o Movimento dos Direitos Civis nos Estados Unidos?",
+        "resposta_usuario": 0,
+        "resposta_correta": 1,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 8,
+        "pergunta_texto": "Qual lei brasileira tornou o racismo crime inafiançável e imprescritível?",
+        "resposta_usuario": 2,
+        "resposta_correta": 3,
+        "acertou": false
+      },
+      {
+        "pergunta_id": 9,
+        "pergunta_texto": "O que são ações afirmativas?",
+        "resposta_usuario": 0,
+        "resposta_correta": 0,
+        "acertou": true
+      },
+      {
+        "pergunta_id": 10,
+        "pergunta_texto": "Por que é importante falar sobre racismo?",
+        "resposta_usuario": 1,
+        "resposta_correta": 1,
+        "acertou": true
+      }
+    ]
   }
 ]
