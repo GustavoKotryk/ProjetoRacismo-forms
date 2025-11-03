@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Consciência Negra - Educar para Transformar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 80px 0;
+        }
+        .feature-card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            margin-bottom: 30px;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .stat-number {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .cta-button {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+        }
+        .testimonial {
+            background: #f8f9fa;
+            border-left: 5px solid #3498db;
+            padding: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Quiz Consciência Negra</h1>
+            <p class="lead mb-4">Educar para transformar: Um projeto de conscientização sobre racismo estrutural</p>
+            <a href="quiz.html" class="btn btn-light btn-lg cta-button">Iniciar Quiz</a>
+        </div>
+    </section>
+
+    <!-- Sobre o Projeto -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-4">Por que esse projeto existe?</h2>
+                    <p class="lead">
+                        Em uma sociedade onde o racismo ainda se manifesta de formas sutis e estruturais, 
+                        a educação se torna nossa ferramenta mais poderosa para mudança.
+                    </p>
+                    <p>
+                        Este quiz foi desenvolvido para promover reflexão, conscientização e 
+                        entendimento sobre as diferentes formas de racismo que persistem em nossa sociedade.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Diversidade e inclusão" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estatísticas -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-5">Nosso Impacto</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="stat-number" id="totalParticipants">0</div>
+                    <p>Participantes</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-number" id="avgScore">0%</div>
+                    <p>Pontuação Média</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Call to Action -->
+    <section class="py-5 text-center">
+        <div class="container">
+            <h2 class="fw-bold mb-4">Pronto para testar seus conhecimentos?</h2>
+            <p class="lead mb-4">Junte-se a centenas de pessoas que já estão se educando para construir uma sociedade mais justa</p>
+            <a href="quiz.html" class="btn btn-primary btn-lg cta-button">Começar Agora</a>
+        </div>
+    </section>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animações simples para os números
+            function animateValue(id, start, end, duration) {
+                let obj = document.getElementById(id);
+                let startTimestamp = null;
+                const step = (timestamp) => {
+                    if (!startTimestamp) startTimestamp = timestamp;
+                    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                    const value = Math.floor(progress * (end - start) + start);
+                    obj.innerHTML = value;
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    }
+                };
+                window.requestAnimationFrame(step);
+            }
+
+            // Valores simulados (em produção viriam da API)
+            animateValue('totalParticipants', 0, 127, 2000);
+            animateValue('totalQuizzes', 0, 89, 2000);
+            animateValue('avgScore', 0, 68, 2000);
+        });
+    </script>
+</body>
+</html>
